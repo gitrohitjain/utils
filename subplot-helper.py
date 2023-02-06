@@ -10,3 +10,4 @@
             axs[i].imshow(image, cmap='gray')
       
         plt.savefig(f'DIR/{savename}', pad_inches=0)
+        plt.close()
